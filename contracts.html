@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contracts | Lexify</title>
+    <link rel="stylesheet" href="contracts.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <!-- For Flowchart -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">LEXIFY</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contracts.html">Contracts</a></li>
+                <li><a href="patents.html">Patents</a></li>
+                <li class="dropdown">
+                    <a href="#" id="lawyers-btn">Lawyers</a>
+                    <ul class="dropdown-menu" id="lawyers-dropdown">
+                        <li><a href="#">Contract Lawyers</a></li>
+                        <li><a href="#">Intellectual Property Lawyers</a></li>
+                        <li><a href="#">Compliance Lawyers</a></li>
+                        <li><a href="#">Corporate Lawyers</a></li>
+                        <li><a href="#">Technology & Cyber Lawyers</a></li>
+                        <li><a href="#">Employment & Labour Lawyers</a></li>
+                        <li><a href="#">Dispute Resolution & Arbitration Lawyers</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-contracts">
+        <div class="contract-box">
+            <div id="arrowAnim">
+                <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div></div>
+                
+            <h1>About Contracts - Your Key to Legal Security</h1>
+            
+            
+            <p>Contracts are essential for ensuring legal protection, clarity, and trust in any professional or personal agreement. Whether you're a business owner, freelancer, landlord, or individual, contracts help outline obligations, prevent disputes, and secure your interests. Lexify simplifies contract creation, ensuring you have legally sound agreements at your fingertips.</p>
+    
+            <h2> Why Are Contracts Important?</h2>
+            <p>Contracts serve as a <b>Binding legal agreement</b> that protects all parties involved. From business partnerships and employment to property deals and freelance work, a well-drafted contract ensures that <b>terms, conditions, and rights</b> are clearly defined—minimizing risks and misunderstandings.</p>
+    
+            <h2>Types of Contracts & How Lexify Helps</h2>
+    
+            <p><strong> Business Contracts:</strong> Secure partnerships, vendor agreements, NDAs, and employment contracts effortlessly.</p>
+    
+            <p><strong> Real Estate Contracts:</strong> Draft lease agreements, property sales contracts, and tenant agreements quickly and legally.</p>
+    
+            <p><strong> Freelance & Service Contracts:</strong> Protect your work with freelance agreements, client contracts, and service agreements to define deliverables and payment terms.</p>
+    
+            <p><strong> Personal Legal Contracts:</strong> Create wills, power of attorney documents, loan agreements, and settlement contracts with ease.</p>
+    
+            <h2> How Lexify Makes Contract Creation Effortless</h2>
+            <p><strong> 1. Choose from Pre-Made Templates:</strong> Select from a library of professionally drafted, legally reviewed** contract templates.</p>
+    
+            <p><strong> 2. AI-Generated Contracts:</strong> Describe your needs, and Lexify's AI instantly generates a customized legal document for you.</p>
+    
+            <p>With e-signature support, PDF downloads, and lawyer consultations, Lexify makes contract management simple, fast, and secure —so you can focus on what matters most.</p>
+        </div>
+    </section>
+    
+    
+    <!-- Flowchart Section -->
+    <section class="flowchart-section">
+        <h2><u> Contract Creation Flowchart</u></h2>
+        <div class="mermaid">
+            graph TD;
+            A[Start] --> B[Choose Template or AI Generation];
+            B --> C[Edit & Customize Content];
+            B --> D[Provide Prompt for AI Contract];
+            C --> E[Review Contract];
+            D --> E;
+            E --> F{E-Sign Required?};
+            F -- Yes --> G[Sign the Document];
+            F -- No --> H[Skip];
+            G --> I[Download as PDF];
+            H --> I;
+            I --> J{Need Lawyer Consultation?};
+            J -- Yes --> K[Connect to Lawyer];
+            J -- No --> L[Contract Ready];
+            K --> L;
+        </div>
+        <div class="button-container">
+            <button id="template-btn" class="custom-btn">Templates</button>
+            <button id="ai-generate-btn" class="custom-btn"><a href="https://www.taskade.com/generate/legal/contract">AI-Generate</a></button>
+        </div>
+    </section>
+    <div id="template-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Choose a Contract Template</h2>
+            <ul>
+                <li><a href="https://www.pandadoc.com/" target="_blank">Standard Business Agreement</a></li>
+                <li><a href="https://www.pandadoc.com/" target="_blank">Freelancer Contract</a></li>
+                <li><a href="https://www.pandadoc.com/" target="_blank">Lease Agreement</a></li>
+                <li><a href="https://www.pandadoc.com/" target="_blank">Employment Contract</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="contracts.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Lexify. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        mermaid.initialize({startOnLoad:true});
+    </script>
+</body>
+</html>
