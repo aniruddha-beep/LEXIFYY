@@ -210,17 +210,17 @@ footer {
     transform: scale(1.05);
     transition: 0.3s;
 }
-/* Hero Section */
+
 .hero {
     position: relative;
     text-align: center;
     padding: 100px 20px;
-    color: rgb(24, 22, 22); /* Ensure text is visible */
+    color: rgb(24, 22, 22); 
     font-weight: 900;
     z-index: 2;
 }
 
-/* Background Image for 'Your Legal Jinni' */
+
 .hero::before {
     content: "";
     position: absolute;
@@ -229,11 +229,11 @@ footer {
     width: 100%;
     height: 100%;
     background: url('C:\Users\ACER\Desktop\HTml\startup\images\3308975.jpg') center/cover no-repeat;
-    opacity: 0.4; /* Adjust transparency */
+    opacity: 0.4; 
     z-index: -1;
 }
 
-/* Ensure Text Stays Above Background */
+
 .hero h1 {
     font-size: 50px;
     font-weight: 900;
