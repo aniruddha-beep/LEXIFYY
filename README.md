@@ -1,5 +1,7 @@
 # LEXIFYY
 A startup I am working on. This is the sample prototype of the actual website.
+
+
 1] ALL the files named index are related and they make the landingpage of the site. The first page includes the logo of the company, signup,login and start buliding - leads to second page. Smooth scroll is also used to make the page scroll down.
 2] Files named Second are related and this page is the login page. As we click the signin button in index page this page pops up. This page has circles floating in the background with animation and sign up page is linked with this page.
 3] Files named Third are related and this page is the signup page. As we click the signup button in index page this page pops up. This page has circles floating in the background with animation and sign up page is linked with this page.
