@@ -37,7 +37,7 @@ function sendMessage() {
     }
 }
 
-// Basic AI Response Function (Replace with ChatGPT API)
+
 function getAIResponse(userMessage) {
     let responses = {
         "hello": "Hello! How can I assist you today?",
